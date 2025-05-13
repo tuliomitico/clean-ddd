@@ -6,4 +6,8 @@ interface AnswerProps {
   questionId: string;
 }
 
-export class Answer extends Entity<AnswerProps> {}
+export class Answer extends Entity<AnswerProps> {
+  get content() {
+    return this.props.content;
+  }
+}
