@@ -20,5 +20,8 @@
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.13"
   }
 }
